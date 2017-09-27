@@ -15,15 +15,6 @@ class Card extends Component {
         
         </Col>
 
-        // <div>
-        //     <div className="col-md-3">
-        //         <img width="250px" src={this.props.imageLink} />
-        //         <div>
-        //         <h3>{this.props.country}</h3>
-        //         <a href={this.props.countryLink} target="_blank">{this.props.country} Tourism Site</a>
-        //         </div>
-        //     </div>
-        // </div>
     );
   }
 }

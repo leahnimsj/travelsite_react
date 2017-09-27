@@ -5,7 +5,7 @@ import { Nav, Navbar, Jumbotron, Button, NavItem, MenuItem, NavDropdown  } from 
 class Footer extends Component {
   render() {
     return (
-        <Navbar className="navbar-inverse">
+        <Navbar inverse fixedBottom>
             <Navbar.Header>
                 <Navbar.Brand >
                 <a href="#">&copy; Travel is fun</a>

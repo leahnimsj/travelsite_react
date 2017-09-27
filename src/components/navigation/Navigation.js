@@ -5,7 +5,7 @@ import { Nav, Navbar, NavItem, MenuItem, NavDropdown  } from 'react-bootstrap';
 class Navigation extends Component {
   render() {
     return (
-        <Navbar className="navbar-inverse">
+        <Navbar inverse fixedTop>
         <Navbar.Header>
           <Navbar.Brand >
             <a href="/">My Travel Site</a>
